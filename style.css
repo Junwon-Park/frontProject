@@ -1,0 +1,32 @@
+header {
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0.5rem 1rem;
+}
+
+input {
+  width: 15rem;
+}
+
+.section__btn {
+  text-align: center;
+  padding: 3rem 0;
+}
+.section__btn > button {
+  width: 8rem;
+  height: 3rem;
+}
+.section__btn > .login__btn {
+  margin-right: 2rem;
+}
